@@ -1,0 +1,36 @@
+node_modules/
+dist/
+.pnpm-store/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.env.local
+.local-data/
+coverage/
+.vite/
+.cache/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.wal
+*.shm
+*.log
+*.tmp
+*.temp
+
+# Candidate verification artifacts
+.verify-store/
+.verify-tmp/
+
+# Local documents, reading material, and exported records
+/PDR.docx
+*.[pP][dD][fF]
+!/src/features/pdf/fixtures/text-two-page.pdf
+!/src/features/pdf/fixtures/no-text-page.pdf
+!/screenshots/demo-reading.pdf
+marginalia-notes.json
+marginalia-translations.json

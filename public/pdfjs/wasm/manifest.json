@@ -1,0 +1,10 @@
+{
+  "pdfjsDistVersion": "6.4.299",
+  "runtimeAssets": [
+    "jbig2.wasm",
+    "jbig2_nowasm_fallback.js",
+    "openjpeg.wasm",
+    "openjpeg_nowasm_fallback.js",
+    "qcms_bg.wasm"
+  ]
+}
